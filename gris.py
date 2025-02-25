@@ -14,7 +14,7 @@ def start():
 def checkinput(numinput):
     if numinput == "1":
   
-        mainprogram
+        mainprogram()
     elif numinput == "2":
         print("Opening..")
         webbrowser.open_new_tab("https://example.com")
